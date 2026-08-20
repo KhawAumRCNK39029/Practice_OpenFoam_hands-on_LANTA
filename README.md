@@ -1,2 +1,8 @@
 # Practice_OpenFoam_hands-on_LANTA
 For new student or interested person that want to get to know OpenFoam and Basic HPC 
+
+
+### ขั้นตอนการติดตั้งและการใช้งาน
+1. **เข้าสู่ระบบ LANTA**:
+   - ก่อนอื่นให้เข้าสู่ระบบของเครื่อง LANTA ให้เรียบร้อย
+2. l
