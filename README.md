@@ -24,7 +24,7 @@ For new student or interested person that want to get to know OpenFoam and Basic
    https://drive.google.com/file/d/13XKzpyBIl4fwIaf3f5vmcfW31yATB8Sm/view?usp=drive_link
    ```
    เปิด session ใหม่บน MobaXterm host : transfer.lanta.nstda.or.th 
-   !(images/moba.png)
+   ![MobaXterm](images/moba.png)
 7.    
 8. 
 9. 
