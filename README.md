@@ -10,7 +10,9 @@ For new student or interested person that want to get to know OpenFoam and Basic
    mkdir ~/openFoam
 3. **ดาวน์โหลด์ไฟล์ Cavity3D**
    ```bash
-   git clone
+   wget -O case.tar.gz "https://drive.google.com/uc?export=download&id=13XKzpyBIl4fwIaf3f5vmcfW31yATB8Sm"
+   tar -xzvf case.tar.gz
+   
 4. 
 5. 
 6. 
