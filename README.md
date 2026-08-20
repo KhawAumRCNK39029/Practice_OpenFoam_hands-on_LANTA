@@ -5,4 +5,12 @@ For new student or interested person that want to get to know OpenFoam and Basic
 ### ขั้นตอนการติดตั้งและการใช้งาน
 1. **เข้าสู่ระบบ LANTA**:
    - ก่อนอื่นให้เข้าสู่ระบบของเครื่อง LANTA ให้เรียบร้อย
-2. l
+2. **สร้างไดเรกทอรีสำหรับทำงาน**:
+   ```bash
+   mkdir ~/openFoam
+3. **ดาวน์โหลด์ไฟล์ Cavity3D**
+   ```bash
+   git clone
+4. 
+5. 
+6. 
