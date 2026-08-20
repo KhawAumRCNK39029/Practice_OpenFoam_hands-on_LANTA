@@ -102,7 +102,7 @@ sbatch run_1_nodes.sh
   ```bash
    myqueue
    ```
-15. มาถึงเสต็ปสุดท้ายแล้ว เราจะนำ log.icoFoam เทียบกับ parse_result.sh โดย log.icofoam จะอยู่ที่ /home/tn60x/openFoam/case/decomp/N128
+15. มาถึงเสต็ปสุดท้ายแล้ว เราจะนำ log.icoFoam เทียบกับ parse_result.sh โดย log.icofoam จะอยู่ที่ /home/tn60x/openFoam/case/decomp/N128 (อย่าลืมดาวน์โหลดไฟล์ parse_result.sh ไว้ที่ที่โฟลเดอร์ openFoam )
 ```bash 
 bash parse_result.sh /home/tn60x/openF/case/decomp/N128/log.icoFoam
 ```
