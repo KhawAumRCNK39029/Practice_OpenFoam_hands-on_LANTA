@@ -102,4 +102,12 @@ sbatch run_1_nodes.sh
   ```bash
    myqueue
    ```
-15. มาถึงเสต็ปสุดท้ายแล้ว เราจะนำ log.icoFoam เทียบกับ 
+15. มาถึงเสต็ปสุดท้ายแล้ว เราจะนำ log.icoFoam เทียบกับ parse_result.sh โดย log.icofoam จะอยู่ที่ /home/tn60x/openFoam/case/decomp/N128
+```bash 
+bash parse_result.sh /home/tn60x/openF/case/decomp/N128/log.icoFoam
+```
+checks: End=1 nan_or_inf=0 steps=5/5 p_solves=10/10 solves_at_321_iters=10/10 ranks=128 nodes=1 cells=unverified
+STATUS: VALID
+RESULT: FVOPS_trim=1.2683M  s_per_step=50.460  trim_time=201.84s  steps=5  ranks=128  nodes=1
+------Finish Hands-on------------------------
+
