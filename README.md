@@ -69,7 +69,7 @@ cd /home/tn603/openFoam/cavity3D-64M
    ``` 
 อย่าลืมปลี่ยน tn60X เป็น user ตัวเองนะ 
    ```bash
-   sbatch pre_128_cores.sh
+sbatch pre_128_cores.sh
    ```
 เช็คสถานะการรัน
    ```bash
@@ -102,4 +102,4 @@ sbatch run_1_nodes.sh
   ```bash
    myqueue
    ```
-15. 
+15. มาถึงเสต็ปสุดท้ายแล้ว เราจะนำ log.icoFoam เทียบกับ 
