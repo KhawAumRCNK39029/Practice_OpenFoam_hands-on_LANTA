@@ -48,6 +48,11 @@ For new student or interested person that want to get to know OpenFoam and Basic
    ```
 13. ** เตรียม Job script ตัดชิ้นส่วนแบ่งเท่าจำนวน core (128 core) => pre_128_cores.sh
 ```bash
+nano pre_128_cores.sh
+```
+Copy ลงไปวางและกด Ctrl+O และกด enter เพื่อบันทึก และกด Ctrl+X เพื่อออกจาก nano 
+
+```bash
 #!/bin/bash
 #SBATCH --job-name=OF_pre_1N
 #SBATCH --account=tn999996
@@ -62,7 +67,7 @@ For new student or interested person that want to get to know OpenFoam and Basic
 module purge
 module load OpenFOAM/v2212-cpeCray-23.03
 
-cd /home/tn603/openFoam/cavity3D-64M
+cd /home/tn60x/openFoam/cavity3D-64M
 
 # runing with using 128 core
    bash Allpre.sh 128
@@ -75,7 +80,11 @@ sbatch pre_128_cores.sh
    ```bash
    myqueue
    ```
+nano pre_128_cores.sh 
+```
+```
 14. **เมื่อรัน pre_128_cores เสร็จสิ้น เราจะมารันการจำลองพลศาสตร์ของไหลกัน => run_1_nodes.sh**
+Copy ลงโค้ด้านล่างไปวางและกด Ctrl+O และกด enter เพื่อบันทึก และกด Ctrl+X เพื่อออกจาก nano 
 ```bash
 #!/bin/bash
 #SBATCH --job-name=OF_run_1N
