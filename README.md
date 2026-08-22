@@ -8,7 +8,7 @@ For new student or interested person that want to get to know OpenFoam and Basic
 2. **สร้างไดเรกทอรีสำหรับทำงาน**:
    ```bash
    mkdir ~/openFoam
-3. **ดาวน์โหลด์ไฟล์ Cavity3D**
+3. **ดาวน์โหลด์ไฟล์ Cavity3D** แต่อันนี้ให้ดูรูปแบบคำสั่งเป็นตัวอย่างเพราะไฟล์ใหญ่เลยต้องใช้ gdown เข้ามาช่วย
    ```bash
    wget -O case.tar.gz "https://drive.google.com/uc?export=download&id=13XKzpyBIl4fwIaf3f5vmcfW31yATB8Sm"
 
